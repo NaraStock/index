@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "de[ploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "apexcharts": "^4.7.0",
