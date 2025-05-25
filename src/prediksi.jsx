@@ -35,7 +35,7 @@ export default function Prediksi({ onBack }) {
   const [prediction, setPrediction] = useState(null);
   const [probabilityUp, setProbabilityUp] = useState(null);
 
-  const url = "https://gakuro.pythonanywhere.com";
+  const url = "https://flasknarastock.onrender.com";
   const symbol = currencyPairs[selectedPair];
 
   useEffect(() => {
